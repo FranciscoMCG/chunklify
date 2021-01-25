@@ -1,6 +1,6 @@
 {
   "name": "@franciscomcg/chunklify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript utility function that returns an array in chunks",
   "main": "index.js",
   "scripts": {
