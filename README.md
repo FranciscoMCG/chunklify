@@ -6,7 +6,8 @@
 
 </div>
 
-[![version][version-badge]][package]
+![version][version-badge]
+![size][size-badge]
 
 <!-- TABLE OF CONTENTS -->
 
@@ -15,6 +16,7 @@
 - [About the project](#about-the-project)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Local development](#local-development)
 
 ## About the project
 
@@ -61,7 +63,38 @@ const chunked = chunklify(arr, 5);
 // [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11]]
 ```
 
+---
+
+## Local development
+
+For local development, please follow the below steps:
+
+1. Clone the repository
+
+```sh
+git clone https://github.com/FranciscoMCG/chunklify.git
+```
+
+2. Access the project folder
+
+```sh
+cd chunklify
+```
+
+3. Install dependencies
+
+```sh
+npm install
+```
+
+4. To run tests use the following script
+
+```sh
+npm run test
+```
+
 <!-- LINKS -->
 
 [version-badge]: https://img.shields.io/npm/v/@franciscomcg/chunklify?color=red
 [package]: https://www.npmjs.com/package/@franciscomcg/chunklify
+[size-badge]: https://img.shields.io/bundlephobia/min/@franciscomcg/chunklify
