@@ -7,7 +7,6 @@
 </div>
 
 [![version][version-badge]][package]
-[![downloads][downloads-badge]][npmtrends]
 
 <!-- TABLE OF CONTENTS -->
 
@@ -64,7 +63,5 @@ const chunked = chunklify(arr, 5);
 
 <!-- LINKS -->
 
-[version-badge]: https://img.shields.io/npm/v/eslint-config-pretty-react?color=red
-[package]: https://www.npmjs.com/package/eslint-config-prett-react
-[downloads-badge]: https://img.shields.io/npm/dm/eslint-config-pretty-react
-[npmtrends]: http://www.npmtrends.com/eslint-config-pretty-react
+[version-badge]: https://img.shields.io/npm/v/@franciscomcg/chunklify?color=red
+[package]: https://www.npmjs.com/package/@franciscomcg/chunklify
